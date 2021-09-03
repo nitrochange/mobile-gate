@@ -29,6 +29,9 @@ dependencies {
 	implementation("org.jetbrains.exposed:exposed-dao:$exposedVersion")
 	implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+	//JUnit for Kotlin
+	testImplementation(kotlin("test"))
 }
 
 tasks.withType<KotlinCompile> {

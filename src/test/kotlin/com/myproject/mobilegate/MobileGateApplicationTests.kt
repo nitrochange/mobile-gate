@@ -10,4 +10,12 @@ class MobileGateApplicationTests {
 	fun contextLoads() {
 	}
 
+	/**
+	 * Базовый тест, проверяющий доступность api
+	 */
+	@Test
+	fun simpleApiTest() {
+
+	}
+
 }
