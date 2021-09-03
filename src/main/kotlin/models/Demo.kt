@@ -1,4 +1,4 @@
-package com.myproject.mobilegate
+package models
 
 import org.jetbrains.exposed.sql.Table
 

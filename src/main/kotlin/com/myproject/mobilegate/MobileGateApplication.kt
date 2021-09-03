@@ -1,5 +1,6 @@
 package com.myproject.mobilegate
 
+import models.Demo
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.transactions.transaction
